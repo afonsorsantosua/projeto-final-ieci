@@ -1,0 +1,125 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DFE8EF;
+}
+
+/* header */
+
+header{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    align-self: stretch;
+    background-color: #222124;
+}
+
+header h1{
+    color: #DFE8EF;
+}
+
+header .menu ul{
+    display: flex;
+    list-style: none;
+}
+
+header .menu ul{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+header .menu a{
+    text-decoration: none;
+    color: #DFE8EF;
+}
+
+header .menu .acerca{
+    font-weight: bold;
+}
+
+header .menu a:hover{
+    text-decoration: underline;
+}
+
+/* Página acerca do trabalho - css */
+
+.acerca_trabalho{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.acerca_trabalho li{
+    list-style: none;
+}
+
+.acerca_trabalho .logo{
+    margin-top: 50px;
+}
+
+/* main */
+
+main .homepage .intro{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+main .homepage #distrito{
+    margin-top: 100px;
+}
+
+main .homepage{
+    text-align: justify;
+    margin-top: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+main .homepage .subcap3 .imagemtabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding: 25px;
+}
+
+main .homepage .subcap3 .imagemtabela .tabela th, td{
+    padding: 5px;
+    text-align: center;
+}
+
+main .homepage .subcap3 .imagemtabela table{
+    border-collapse: collapse;
+}
+
+main .homepage .subcap3 .imagemtabela img{
+    height: 450px;
+    width: auto;
+}
+
+main .homepage .subcap4 .tabela{
+    display: flex;
+    justify-content: center;
+}
+
+main .homepage .subcap4 .tabela table{
+    border-collapse: collapse;
+}
+
+main .homepage .subcap4 .tabela th, td{
+    padding: 5px;
+    text-align: center;
+}
+
+main .subcap8 .grafico{
+    text-align: center;
+    padding: 15px;
+}
